@@ -8,3 +8,7 @@ import (
 func Test_DepentMe(t *testing.T) {
 	m2.Hello()
 }
+
+func Benchmark_DepentMe(b *testing.B) {
+	m2.Hello()
+}
