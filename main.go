@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/cpucorecore/golang_study/m2"
+	"golang_study/heap_sort"
 )
 
 func main() {
-	fmt.Println(m2.Hello())
+	a := []int{0, 4, 1, 3, 2, 16, 9, 10, 14, 8, 7}
+	heap_sort.BuildMaxHeap(a)
+	fmt.Print(a)
 }
