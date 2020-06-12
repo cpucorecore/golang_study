@@ -1,5 +1,5 @@
 ## 软件升级流程：
-![alt text](https://drive.google.com/file/d/1l9aBq68bCPC6tcNzIWJK8vKZLqp7ggmd/view)
+![alt text](https://drive.google.com/file/d/1l9aBq68bCPC6tcNzIWJK8vKZLqp7ggmd)
 
 ## 提交升级提案
 提案内容以json的方式存储在文件software_upgrade_proposal中
