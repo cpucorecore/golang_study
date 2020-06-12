@@ -1,14 +1,5 @@
 ## 软件升级流程：
-```mermaid
-graph TB
-proposal[提交升级提案] --> proposalCond{提案通过?}
-proposalCond --是--> nodeUpgrading[节点升级]
-proposalCond --否--> finish[结束]
-nodeUpgrading --> upgradeSuccCond{超过阈值?}
-upgradeSuccCond --是--> newVersion[启动新版本]
-upgradeSuccCond --否--> finish
-newVersion --> finish
-```
+<img src="https://raw.githubusercontent.com/cpucorecore/golang_study/master/upgradeFlowchart.png" width="50%" height="50%">
 
 ## 提交升级提案
 提案内容以json的方式存储在文件software_upgrade_proposal中
