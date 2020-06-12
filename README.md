@@ -1,5 +1,5 @@
 ## 软件升级流程：
-<img src="https://github.com/cpucorecore/golang_study/releases/download/v1.2.0/upgradeFlowchart.png" width="50%" height="50%">
+<img src="https://drive.google.com/file/d/1GcXPk_eFDrrTv0arW6UXWef9nO7FOJuZ/view?usp=sharing" width="50%" height="50%">
 
 ## 提交升级提案
 提案内容以json的方式存储在文件software_upgrade_proposal中
